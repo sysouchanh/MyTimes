@@ -1,0 +1,32 @@
+* {
+  font-family: Verdana;
+}
+
+.container {
+  border: 1px solid black;
+}
+
+.header {
+  border: 1px solid black;
+  display: flex;
+}
+
+.mainstory {
+  border: 1px solid black;
+}
+
+.article1 {
+  border: 1px solid black;
+}
+
+.article2 {
+  border: 1px solid black;
+}
+
+.article3 {
+  border: 1px solid black;
+}
+
+.article4 {
+  border: 1px solid black;
+}
