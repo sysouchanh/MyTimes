@@ -2,17 +2,20 @@
   font-family: Verdana;
 }
 
-.container {
-  border: 1px solid black;
-}
-
 .header {
-  border: 1px solid black;
+  border-bottom: 1px solid black;
   display: flex;
+  color: MediumAquamarine;
+}
+span {
+  display: inline-flex;
+  align-content: flex-end;
+  color: red;
+
 }
 
 .mainstory {
-  border: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .article1 {
