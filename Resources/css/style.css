@@ -1,35 +1,105 @@
-* {
-  font-family: Verdana;
-}
 
 .header {
-  border-bottom: 1px solid black;
-  display: flex;
-  color: MediumAquamarine;
-}
-span {
-  display: inline-flex;
-  align-content: flex-end;
-  color: red;
-
-}
-
-.mainstory {
-  border-bottom: 1px solid black;
-}
-
-.article1 {
   border: 1px solid black;
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: MediumAquamarine;
+  width: 400px;
+}
+
+.header, nav{
+  display: inline-flex;
+}
+
+.main-container {
+  display: flex;
+}
+
+.container1 {
+  display: flex;
+}
+
+.container2 {
+  display: inline-flex;
+}
+
+#column-large {
+  width: 630px;
+}
+
+#column-medium {
+  width: 300px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#column-small {
+  width: 240px;
+}
+
+.title {
+  border: 1px solid black;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+.mainstory {
+  font-family: Georgia;
+  font-size: 17px;
+  color black;
+}
+
+.story2 {
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.story3 {
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+.article1 {
+  font-family: Georgia;
+  font-size: 17px;
+  color black;
 }
 
 .article2 {
-  border: 1px solid black;
+  font-family: Georgia;
+  font-size: 17px;
+  color black;
 }
 
 .article3 {
-  border: 1px solid black;
+  font-family: Georgia;
+  font-size: 17px;
+  color black;
+}
+
+.title2 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
 
 .article4 {
-  border: 1px solid black;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.newsbite {
+  font-family: Georgia;
+  font-size: 17px;
+  color black;
 }
