@@ -1,20 +1,25 @@
 
 .header {
-  border: 1px solid black;
+  border-bottom: 1px solid black;
   display: flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   color: MediumAquamarine;
-  width: 400px;
+  width: 1170px;
+  margin-bottom: 5px;
+
 }
 
-.header, nav{
-  display: inline-flex;
+nav {
+  display: inline-block;
+  margin-left: 700px;
+  float: right;
 }
 
 .main-container {
   display: flex;
+  margin-top: 30px;
 }
 
 .container1 {
@@ -31,8 +36,8 @@
 
 #column-medium {
   width: 300px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 #column-small {
@@ -40,12 +45,16 @@
 }
 
 .title {
-  border: 1px solid black;
+  display: flex;
   font-family: Georgia;
   font-weight: bold;
   font-size: 40px;
   color: white;
+  padding-left: 20px;
+  padding-right: 20px;
 }
+
+
 .mainstory {
   font-family: Georgia;
   font-size: 17px;
@@ -58,6 +67,8 @@
   font-weight: bold;
   font-size: 30px;
   color: white;
+  text-align: center;
+
 }
 
 .story3 {
@@ -65,31 +76,30 @@
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
+  margin-left: 60px;
   color: white;
+  text-align: center;
+
+
 }
 .article1 {
   font-family: Georgia;
   font-size: 17px;
   color black;
+  margin-right: 10px;
 }
 
 .article2 {
   font-family: Georgia;
   font-size: 17px;
   color black;
+  margin-left: 10px;
 }
 
 .article3 {
   font-family: Georgia;
   font-size: 17px;
   color black;
-}
-
-.title2 {
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
 }
 
 .article4 {
@@ -102,4 +112,15 @@
   font-family: Georgia;
   font-size: 17px;
   color black;
+}
+
+h4 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.footer {
+
 }
